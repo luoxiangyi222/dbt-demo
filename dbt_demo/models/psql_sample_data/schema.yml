@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: psql_sample_data # this is name of resouces how we refer to it 
+    description: 'A simple example to link raw table in database.'
+    database: dbttest
+    schema: dbt_schema
+    tables:
+      - name: my_first_dbt_model
+        description: 'The test table for my dbt project demo.'
+
+ 
